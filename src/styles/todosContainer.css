@@ -1,0 +1,16 @@
+.container {
+  height: 200px;
+  margin-top: 40px;
+  max-width: 600px;
+}
+
+.todoItem {
+  cursor: pointer;
+  min-width: 100px;
+  transition: all 1000ms;
+}
+
+.todoItem:hover {
+  text-decoration: line-through;
+  color: red;
+}
